@@ -1,0 +1,163 @@
+body {
+background-color: rgb(199, 199, 216);
+color: #f1560e;
+
+font-size: 16px;
+font-weight: normal;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}  
+a{ color: black;
+text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+
+    text-align: center;
+
+
+}
+a:active{
+    text-align: center;
+    color: rgb(0, 255, 42);
+}
+a:visited{color: #f70606;}
+
+/*.avatar{ 
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0 , 025);
+} */ 
+.info p{
+    text-align: center;
+    color: #0ef12c;
+    margin: 0
+    ;
+    font-style:italic;
+    text-decoration: none;}
+   /* text-transform: uppercase;}
+   
+
+.container{
+   max-width: 800px;
+   margin: auto;
+}
+.caut{background-color: rgb(255, 0, 170);
+padding: 15px;
+border: 5px solid rgb(0, 255, 13);
+margin: 20px;
+}
+
+/*.box-model>div{
+    float: left;
+background-color: #f1560e;
+height: 200px;
+border: 4px solid rgb(0, 255, 13);
+width: 25%;
+box-sizing: border-box;
+}*/
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-grean {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+
+
+
+.card{
+    padding: 15px 20 px;
+   
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card2{ margin-bottom: 10px;}
+.lict{
+
+    padding: 10 20px;
+}
+.table{
+width: 100%;
+
+}
+.table td{
+
+    padding-bottom: 10px;
+}
+.table td:nth-child(2){
+    color: #0ef12c;
+}
+.linc{
+padding: 0;
+margin-bottom: 10px;
+border-bottom: 1px ;
+padding-bottom: 5px;
+
+
+}
+
+.contact{ 
+    text-align: center;
+}
+.div1 input,
+.div1 textarea{
+width: 100%;
+box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+} 
+.div2 input,
+.div2 textarea{
+width: 100%;
+box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+} 
+.row {
+display: flex;
+margin-bottom: 20px;
+}   
+.row > .contact{
+
+    margin-right: 0;
+}
+.div3 input,
+.div3 textarea{
+width: 100%;
+box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+} 
+.div4 input
+{
+background: #111;
+     padding: 15px 0 10px; 
+     border: none;
+     font-family: inherit;
+     cursor: pointer;
+} 
+.div4:hover {
+    opacity: 0,9;}
+    @media (max-width: 700px){
+.container1{
+display: block;
+    text-align: center;
+}
+}
